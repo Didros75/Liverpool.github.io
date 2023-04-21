@@ -1,0 +1,17 @@
+h1 {
+    font-size:100px;
+    text-align: center;
+}
+html {
+    font-family:cursive;
+    background: url("https://1.bp.blogspot.com/-8duFKW8Yzkg/WxoqAF-Jf4I/AAAAAAABkrc/FIf9XyeDyQ8qnOd4e5E1WNpi9QkUgsTlACLcBGAs/s1600/England.jpg");
+}
+button {
+    width: 100px;
+    height: 30px;
+    font-size: 20px
+}
+img {
+  display: block;
+  margin: auto;
+}
