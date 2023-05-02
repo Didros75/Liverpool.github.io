@@ -136,17 +136,22 @@ nav a {
 }
 
 nav a:hover {
-	color: black;
-}
+			color: black;
+		}
 
-nav a::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 2px;
-    background-color: black;
-    transition: all 0.3s ease;
+		nav a::before {
+			content: '';
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 0;
+			height: 2px;
+			background-color: black;
+			transition: all 0.3s ease;
+		}
+
+		nav a:hover::before {
+			width: 100%;
+		}
 }
