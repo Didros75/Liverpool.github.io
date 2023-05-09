@@ -1,6 +1,7 @@
 html {
     font-family:cursive;
     background: url("https://1.bp.blogspot.com/-8duFKW8Yzkg/WxoqAF-Jf4I/AAAAAAABkrc/FIf9XyeDyQ8qnOd4e5E1WNpi9QkUgsTlACLcBGAs/s1600/England.jpg");
+    background-attachment: fixed;
 }
 h1 {
     font-size:100px;
